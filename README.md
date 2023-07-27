@@ -30,6 +30,31 @@ Não estou usando sistemas Linux atualmente. Leia:
 
 ### Instalando e configurando o [Visual Studio Code](https://code.visualstudio.com)
 
+Assim como na instalação do Go, você pode usar `scoop install extras/vscode`.
+Se não estiver com vontade de baixar um gerenciador de pacote, então simplesmente entre no [site do Visual Studio Code](https://code.visualstudio.com) e clique no botão azul "Download for xxxxxx". Você vai ser redirecionado para [outra página](https://code.visualstudio.com/docs), tente ler um pouco.
+
+Para instalar no Linux, veja [a documentação do Visual Studio Code sobre Linux](https://code.visualstudio.com/docs/setup/linux).
+
+Vamos para as extensões. Se tem uma coisa que o Visual Studio Code é bom, então isso é a quantidade de customizações disponíveis! Aqui irei citar algumas recomendações de extensões para você baixar:
+
+- [Go](https://marketplace.visualstudio.com/items?itemName=golang.Go);
+- [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker);
+  - Inglês já vem por padrão.
+  - [Português Brasileiro](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker-portuguese-brazilian)
+- [Tabnine AI](https://marketplace.visualstudio.com/items?itemName=TabNine.tabnine-vscode) ou [Codeium](https://marketplace.visualstudio.com/items?itemName=Codeium.codeium);
+- [Editor Config](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig);
+- [Git Lens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens);
+
+- [Markdown Lint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint);
+- [Markdown Checkboxes](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-checkbox);
+- [Markdown Emoji](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-emoji);
+- [Markdown Preview Github](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-preview-github-styles);
+- [Markdown Preview Mermaid](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-mermaid);
+
+- [Fluent Icons](https://marketplace.visualstudio.com/items?itemName=miguelsolorio.fluent-icons);
+- [Material Theme Icons](https://marketplace.visualstudio.com/items?itemName=Equinusocio.vsc-material-theme-icons) ou [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme);
+- [Dracula](https://marketplace.visualstudio.com/items?itemName=dracula-theme.theme-dracula), [One Dark Pro](https://marketplace.visualstudio.com/items?itemName=zhuangtongfa.Material-theme) e [Atom One Dark Theme](https://marketplace.visualstudio.com/items?itemName=akamud.vscode-theme-onedark).
+
 ### Instalando este projeto
 
 1. Clonar o repositório
