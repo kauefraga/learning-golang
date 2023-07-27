@@ -6,18 +6,85 @@
 
 ### Pré-requisitos
 
+Abaixo eu vou citar os pré-requisitos para usar a linguagem Go, como instalá-los e recomendar algumas ferramentas e extensões.
+
+- Ter a linguagem [Go](https://go.dev) instalada. Veja na seção [#instalando a linguagem go](#instalando-a-linguagem-go)
+
+- Ter um editor de texto (estou utilizando [Visual Studio Code](https://code.visualstudio.com)). Veja [aqui](#instalando-e-configurando-o-visual-studio-code).
+
+### Instalando a [linguagem Go](https://go.dev)
+
+#### Windows
+
+- Você pode instalar com um gerenciador de pacote como o [Scoop](https://scoop.sh), [Chocolatey](https://chocolatey.org) ou outro.
+  - Exemplo: `scoop install main/go`
+
+- Entre na [página de download da linguagem](https://go.dev/dl), procure por "Microsoft Windows" e baixe o "go{x.xx.x}.windows-amd64.msi".
+
+#### Linux
+
+Não estou usando sistemas Linux atualmente. Leia:
+
+- [How to install Go in Linux](https://golangdocs.com/install-go-linux)
+- [Como instalar Go no Linux](https://dev.to/alexandreliberato/como-instalar-golang-no-linux-3pl9)
+
+### Instalando e configurando o [Visual Studio Code](https://code.visualstudio.com)
+
 ### Instalando este projeto
 
 1. Clonar o repositório
-2. Instalar as dependências
-3. Compilar e rodar o código
+2. Compilar e rodar os códigos
 
 ```bash
 # (1)
 git clone https://github.com/kauefraga/learning-golang.git
+
+# (2)
+go run website-status/src/main.go
+# ou
+go build website-status/src/main.go
+./main.exe
 ```
 
 ## 📚 Conhecimento adquirido
+
+Lista de aprendizados
+
+- Entrada padrão
+
+```go
+// Pacote principal
+package main
+
+// Função de entrada
+func main() {
+
+}
+```
+
+- Tipos primitivos
+  - Inteiros (`int`)
+  - Ponto-flutuante (`float32` e `float64`)
+  - String
+  - Boolianos
+- Variáveis
+  - Declaração normal: `var nome_da_variável tipo_da_variável`
+  - Declaração encurtada: `nome_da_variável := 0` (precisa ser inicializada)
+- Inferência de tipos
+- Funções
+  - Declaração: `func nome_da_função(...parâmetros) tipo_de_retorno {}`
+  - Múltiplos retornos
+- Arrays (fixos) e slices (dinâmicos)
+- Controle de fluxo
+  - `if, elseif e else`
+  - `switch`
+- Repetições
+  - for loop: `for ... {}`
+  - while loop não existe (estranho, porém acontece) mas pode ser reproduzido usando um loop infinito `for {}` e uma simples lógica
+- Encerrar programas
+  - Use `os.Exit(código int)`
+- Fazer requisições HTTP
+  - Use `http.Get(url string)`
 
 ## 🧻 Recursos
 
